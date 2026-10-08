@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ SkillForge
 
-## Getting Started
+> **"Don't buy a certificate. Earn your credentials."**
 
-First, run the development server:
+SkillForge is a next-generation **Earn-While-You-Learn talent verification platform**. It bridges the gap between theoretical online courses and real-world company demands by evaluating actual coding logic, training weak points, and paying users to solve anonymized micro-tasks.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **🧠 AI-Adaptive Skill Assessment:** Tests users through intelligent modules and pinpoints exact knowledge gaps rather than forcing them to restart generic courses.
+* **🔒 Anonymized Task Marketplace:** Solves the company-data privacy problem by taking real-world micro-tasks and anonymizing them into equivalent challenges (e.g., Data Cleaning, Bug Fixing) with cash rewards.
+* **🛡️ The Skill Passport:** Replaces useless PDF certificates with a cryptographic, verifiable profile tracking star-ratings, tasks completed, and total earnings. Employers can scan and verify authenticity instantly.
+* **💸 Dynamic Revenue Sharing:** A sustainable business model where high-skilled tasks yield higher payouts for learners while maintaining platform operational margins.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+* **Frontend & Framework:** Next.js (App Router) / React
+* **Styling:** Tailwind CSS (Modern Glassmorphism & Orange Accents)
+* **Icons:** Lucide React
+* **Language:** TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+skillforge/
+├── src/
+│   ├── app/
+│   │   ├── globals.css         # Tailwind & custom styling
+│   │   ├── layout.tsx          # Modern Glassmorphic Navbar & Layout
+│   │   ├── page.tsx            # Landing Page
+│   │   ├── assessment/         # Interactive Skill Check & Gap Analysis
+│   │   ├── tasks/              # Anonymized Micro-Task Marketplace
+│   │   └── passport/           # The Verifiable Skill Passport
+│   └── lib/
+│       └── mockData.ts         # Mock database for hackathon simulation
+├── package.json
+└── README.md
